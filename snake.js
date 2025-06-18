@@ -25,7 +25,7 @@ window.onload = function() {
     board = document.getElementById("board");
     board.height = rows * blockSize;
     board.width = cols * blockSize;
-    context = board.getContext("2D"); // used for drawing on the board
+    context = board.getContext("2d"); // used for drawing on the board
 
     placeFood();
     document.addEventListener("keyup", changeDirection);
